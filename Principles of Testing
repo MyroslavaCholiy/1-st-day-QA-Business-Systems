@@ -1,0 +1,23 @@
+Principles
+Principle 1 – Testing shows presence of defects
+Testing can show that defects are present, but cannot prove that there are no defects. Testing reduces the probability of undiscovered defects remaining in the software but, even if no defects are found, it is not a proof of correctness. Принцип 1 - Тестування показує наявність дефектів Тестування може показувати наявність дефектів, але не може довести, що дефектів немає. Тестування зменшує ймовірність невідкритих дефектів, що залишилися в програмному забезпеченні, але навіть якщо не виявлено дефектів, це не є доказом правильності.
+
+Principle 2 – Exhaustive testing is impossible
+Testing everything (all combinations of inputs and preconditions) is not feasible except for trivial cases. Instead of exhaustive testing, risk analysis and priorities should be used to focus testing efforts. Принцип 2 - Вичерпне тестування неможливе Тестування всього (всі комбінації входів і передумов) неможливе, за винятком тривіальних випадків. Замість вичерпного тестування, слід зосередитись на аналізі ризиків та пріоритетах, щоб зосередити зусилля на тестуванні.
+
+Principle 3 – Early testing
+To find defects early, testing activities shall be started as early as possible in the software or system development life cycle, and shall be focused on defined objectives Принцип 3 - Раннє тестування
+Для того, щоб знайти дефекти на ранній стадії, діяльність з тестування повинна бути запущена якомога раніше в життєвому циклі розробки програмного забезпечення або системи, і зосереджена на визначених цілях
+
+Principle 4 – Defect clustering
+Testing effort shall be focused proportionally to the expected and later observed defect density of modules. A small number of modules usually contains most of the defects discovered during pre-release testing, or is responsible for most of the operational failures. Принцип 4 - Кластеризація дефектів. Зусилля тестування повинні бути спрямовані пропорційно до очікуваної та пізніше спостережуваної щільності дефектів модулів. Невелика кількість модулів зазвичай містить більшість дефектів, виявлених під час попереднього випробування, або відповідає за більшість збоїв у роботі.
+
+Principle 5 – Pesticide paradox
+If the same tests are repeated over and over again, eventually the same set of test cases will no longer find any new defects. To overcome this “pesticide paradox”, test cases need to be regularly reviewed and revised, and new and different tests need to be written to exercise different parts of the software or system to find potentially more defects. Принцип 5 - Парадокс пестицидів Якщо ті ж самі тести повторюються знову і знову, в кінцевому рахунку, те ж саме тестові випадки більше не виявлять нових дефектів. Щоб подолати цей "парадокс пестицидів", тестові випадки повинні регулярно переглядатися і переглядатися, а нові і різні тести повинні бути написані для здійснення різних частин програмного забезпечення або системи, щоб знайти потенційно більше дефектів.
+
+Principle 6 – Testing is context dependent
+Testing is done differently in different contexts. For example, safety-critical software is tested differently from an e-commerce site. Принцип 6 - Тестування залежить від контексту
+Тестування виконується по-різному в різних контекстах. Наприклад, програмне забезпечення, критичне для безпеки, тестується інакше, ніж сайт електронної торгівлі.
+
+Principle 7 – Absence-of-errors fallacy
+Finding and fixing defects does not help if the system built is unusable and does not fulfill the users’ needs and expectations.  Принцип 7 - Помилка відсутності помилок Пошук і усунення дефектів не допомагає, якщо побудована система є непридатною і не відповідає потребам і очікуванням користувачів. 
