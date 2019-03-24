@@ -1,0 +1,258 @@
+!DOCTYPE html>  
+
+<html> 
+
+<head>  
+<head> : <title>, <style>, <meta>, <link>, <script>, and <base>.
+
+<title> 
+
+<meta> 
+
+For HTML4:<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+For HTML5: <meta charset="UTF-8">
+
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML, CSS, XML, JavaScript">
+<meta name="author" content="John Doe">
+<meta http-equiv="refresh" content="30">
+
+<base> 
+<base href="https://www.w3schools.com/images/" target="_blank">
+
+<body>  
+
+<h1>   
+<p>     
+
+<link> 
+<hr>	
+<br>    
+<pre>   e
+<tagname style="property:value;">
+<b> - 
+<strong> - 
+<i> - 
+<em> - 
+<mark> - 
+<small> - 
+<a href="url">link text</a>
+<img> 
+<del> - 
+<ins> - 
+<sub> -
+<sup> - 
+<blockquote> <blockquote> 
+<abbr title="World Health Organization">WHO</abbr>
+<address>
+    Written by John Doe.<br> 
+    Visit us at:<br>
+    Example.com<br>
+    Box 564, Disneyland<br>
+    USA
+</address>
+
+<bdo> 
+<cite> 
+<abbr>	
+<address>	
+<bdo>
+<blockquote>	
+<cite>	
+<q>	
+<!-- Write your comments here -->
+
+<tr> <tr> 
+    table, th, td {
+  border: 1px solid black;
+}
+    th, td {
+     padding: 15px;
+}
+<ol>An ordered list
+  <ol type="1">
+  <ol type="A">
+  <ol type="a">
+  <ol type="I">
+  <ol type="i">
+
+<ul>An unordered list 
+
+<li>
+
+
+<ul style="list-style-type:disc;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+Example - Circle
+<ul style="list-style-type:circle;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+Example - Square
+<ul style="list-style-type:square;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+Example - None
+<ul style="list-style-type:none;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<dl> The <dl> tag defines the description list, 
+<dt> tag defines the term (name), and the 
+<dd> tag describes each term
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+Block level elements in HTML:
+<address>
+<article>
+<aside>
+<blockquote>
+<canvas>
+<dd>
+<div>
+<dl>
+<dt>
+<fieldset>
+<figcaption>
+<figure>
+<footer>
+<form>
+<h1>-<h6>
+<header>
+<hr>
+<li>
+<main>
+<nav>
+<noscript>
+<ol>
+<p>
+<pre>
+<section>
+<table>
+<tfoot>
+<ul>
+<video>
+
+Inline elements in HTML:
+<a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object><output><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt><var>
+
+<iframe> tag Use the height and width attributes to specify the size of the iframe.
+<iframe src="demo_iframe.htm" height="200" width="300"></iframe>
+
+<script>The <script> tag is used to define a client-side script (JavaScript).
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+
+<img> 
+<img src="/images/picture.jpg" alt="Mountain">
+
+<id> 
+
+<pre>
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+</pre>
+
+<var> 
+
+
+
+
+Step 1: Open Notepad (PC) Open Start > Programs > Accessories > Notepad
+Step 2: Write Some HTML
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+		
+    <title>My First HTML</title>
+			   
+    <meta charset="UTF-8">
+    
+</head>
+		
+<body>
+
+		<h1 style="background-color:rgb(255, 99, 71);">...</h1>
+    
+		<h1 style="background-color:#ff6347;">...</h1>
+    
+		<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+    
+		<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+    
+		<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+    
+  	<h1 style="font-size:60px;">Heading 1</h1>
+        
+		<h1 style="color:blue;">This is a heading</h1>
+    
+  	<h2>This is heading 2</h2>
+    
+	  <h1 style="font-size:300%;">This is a heading</h1>
+    
+    <h3>This is heading 3</h3>
+			  
+			  
+	  <p title="I'm a tooltip"> This is a paragraph.</p
+	 	 
+	  <!-- This is a comment -->
+    
+    <p>This is a paragraph.</p>
+    
+    <!-- Remember to add more information here -->	
+
+	  <!-- Do not display this at the moment
+   
+    <img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
+     <p>This is another paragraph.</p>
+     
+     <p>My nexp  paragraph.</p>
+	 				
+	   <p style="color:red">I am a paragraph</p>
+				
+	   <a href="https://www.w3schools.com">
+					
+	  <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+		<img src="img_girl.jpg">
+		<img src="img_girl.jpg" width="500" height="600">
+		<img src="img_girl.jpg" alt="Girl with a jacket">
+					
+<button>Click me</button>
+						
+		<ul> (unordered/bullet list) or the <ol> (ordered/numbered list) tag, followed by <li> tags (list items)
+		<ul>
+             <li>Coffee</li>
+             <li>Tea</li>
+             <li>Milk</li>
+         </ul>
+		 
+		 <bdo dir="rtl">This text will be written from right to left</bdo>
+				
+				
+</body>
+</html>
