@@ -1,0 +1,39 @@
+Registration
+
+<h1>New Urer Registration</h1>
+		<hr>
+			<form>
+			<table>
+			<tr>
+				<td>User Name: </td>
+					<td><input/></td><br>
+				</tr>
+				<tr>
+					<td>Last Name: </td>
+					<td><input/></td><br>
+				</tr>
+			
+				<tr>
+					<td>First Name:</td>
+					<td><input/></td><br>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input/></td><br>
+				</tr> 
+					<td>Password</td>
+					<td><input type="password"/></td><br>
+				</tr>
+				<tr>
+					<td> I agree to term and conditins</td>
+					<td><input type="checkbox"/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Register"/></td>
+				</tr> 				
+				<tr>
+					<td> Gender</td>
+					<td><input type="radio" name="gender"/>Male<input type="radio" name="gender"/>Female</td>
+				</tr> 
+				<tr>
