@@ -1,0 +1,315 @@
+Java Operators
+
+Java divides the operators into the following groups:
+
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Bitwise operators
+
+Operand	          Operator	        Operand
+  100               +                 50
+the numbers 100 and 50 are operands, and the + sign is an operator:
+int x = 100 + 50;
+
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 100 + 50;
+    System.out.println(x);
+  }
+}
+
+int sum1 = 100 + 50;        // 150 (100 + 50)
+int sum2 = sum1 + 250;      // 400 (150 + 250)
+int sum3 = sum2 + sum2;     // 800 (400 + 400)
+
+public class MyClass {
+  public static void main(String[] args) {
+    int sum1 = 100 + 50;
+    int sum2 = sum1 + 250;
+    int sum3 = sum2 + sum2;
+    System.out.println(sum1);
+    System.out.println(sum2);
+    System.out.println(sum3);  
+  }
+}
+
++	Addition	Adds together two values	x + y 
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    int y = 3;
+    System.out.println(x + y);
+  }
+}
+
+
+-	Subtraction	Subtracts one value from another	x - y
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    int y = 3;
+    System.out.println(x - y);
+  }
+}
+  
+  *	Multiplication	Multiplies two values	x * y
+  public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    int y = 3;
+    System.out.println(x * y);
+  }
+}
+
+/	Division	Divides one value from another	x / y
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 12;
+    int y = 3;
+    System.out.println(x / y);
+  }
+}
+
+
+%	Modulus	Returns the division remainder	x % y
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    int y = 2;
+    System.out.println(x % y);
+  }
+}
+
+++	Increment	Increases the value of a variable by 1	++x
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    ++x;
+    System.out.println(x);
+  }
+}
+
+--	Decrement	Decreases the value of a variable by 1	--x	
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    --x;
+    System.out.println(x);
+  }
+}
+
+Java Assignment Operators
+ assignment operator (=) to assign the value 10 to a variable called x:
+int x = 10;
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 10;
+    System.out.println(x);
+  }
+}
+
+addition assignment operator (+=) adds a value to a variable:
+int x = 10;
+x += 5;
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 10;
+    x += 5;
+    System.out.println(x);
+  }
+}
+
+x = 5	x = 5 
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    System.out.println(x);
+  }
+}
+
+x += 3	x = x + 3 
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    x += 3;
+    System.out.println(x);
+  }
+}
+
+x -= 3	x = x - 3
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    x -= 3;
+    System.out.println(x);
+  }
+}
+
+x *= 3	x = x * 3
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    x *= 3;
+    System.out.println(x);
+  }
+}
+
+x /= 3	x = x / 3
+public class MyClass {
+  public static void main(String[] args) {
+    double x = 5;
+    x /= 3;
+    System.out.println(x);
+  }
+}
+
+x %= 3	x = x % 3
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    x %= 3;
+    System.out.println(x);
+  }
+}
+
+x &= 3	x = x & 3
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    x &= 3;
+    System.out.println(x);
+  }
+}
+
+x |= 3	x = x | 3
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    x |= 3;
+    System.out.println(x);
+  }
+}
+
+x ^= 3	x = x ^ 3
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    x ^= 3;
+    System.out.println(x);
+  }
+}
+
+x >>= 3	x = x >> 3
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    x >>= 3;
+    System.out.println(x);
+  }
+}
+
+x <<= 3	x = x << 3
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    x <<= 3;
+    System.out.println(x);
+  }
+}
+
+Java Comparison Operators
+Comparison operators are used to compare two values:
+
+Operator	Name	Example	Try it
+==  	Equal to	x == y	
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    int y = 3;
+    System.out.println(x == y); // returns false because 5 is not equal to 3
+  }
+}
+
+!=	  Not equal	x != y	
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    int y = 3;
+    System.out.println(x != y); // returns true because 5 is not equal to 3
+  }
+}
+
+
+>   	Greater than	x > y	
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    int y = 3;
+    System.out.println(x > y); // returns true because 5 is greater than 3
+  }
+}
+
+<	    Less than	x < y	
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    int y = 3;
+    System.out.println(x < y); // returns false because 5 is not less than 3
+  }
+}
+
+>=  	Greater than or equal to	x >= y	
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    int y = 3;
+    System.out.println(x >= y); // returns true because five is greater, or equal, to 3
+  }
+}
+
+<=  	Less than or equal to	x <= y
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    int y = 3;
+    System.out.println(x <= y); // returns false because 5 is neither less than or equal to 3
+  }
+}
+
+Java Logical Operators - are used to determine the logic between variables or values:
+
+Operator             	Name                 	Description                                     	            Example
+&&              	Logical and	              Returns true if both statements are true	                    x < 5 &&  x < 10	
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    System.out.println(x > 3 && x < 10); // returns true because 5 is greater than 3 AND 5 is less than 10
+  }
+}
+
+Operator             	Name                 	Description                                     	            Example
+|| 	              Logical or	              Returns true if one of the statements is true   	            x < 5 || x < 4	
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    System.out.println(x > 3 || x < 4); // returns true because one of the conditions are true (5 is greater than 3, but 5 is not less than 4)
+  }
+}
+
+Operator             	Name                 	Description                                     	            Example
+!                 Logical not	              Reverse the result, returns false if the result is true	      !(x < 5 && x < 10)
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5;
+    System.out.println(!(x > 3 && x < 10)); // returns false because ! (not) is used to reverse the result
+  }
+}
+
+
+
+
+
+
+
